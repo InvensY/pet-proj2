@@ -1,1 +1,11 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+
+@layer animation{
+  .hoverHeader{
+    transition: transform 0.2s;
+  }
+  .hoverHeader:hover{
+    transform: scale(1.1);
+  }
+}
