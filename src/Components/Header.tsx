@@ -16,24 +16,21 @@ export default function Header(){
             <div className="
             text-[#FDFDFD]
             flex 
-            justify-between
             w-[100%] 
-            font-[500]
             align-center 
-            md:justify-center 
             mx-[auto] 
             lg:max-w-[900px]
             lg:gap-[20px]
-            xl:max-w-[1000px]
-            2xl:max-w-[1180px]
+            xl:max-w-[1180px]
+            2xl:max-w-[1200px]
             2xl:flex
             2xl:text-[18px]
             2xl:gap-[212px]
             ">
                 <img className="m-[10px] md:p-[0px] w-[84px] h-[44px] md:w-[137px] md:h-[72px]" src={logo} alt="" />
-                <div className="md:flex gap-[24px] my-[auto] hidden ">
+                <div className="md:flex flex-nowrap gap-[24px] my-[auto] hidden font-[500] ">
                     <button className="hoverHeader">Главная</button>
-                    <button className="hoverHeader">Про гида</button>
+                    <button className="hoverHeader ">Про гида</button>
                     <button className="hoverHeader">Программа тура</button>
                     <button className="hoverHeader" >Стоимость</button>
                     <button className="hoverHeader">Блог</button>
