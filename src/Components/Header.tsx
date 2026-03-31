@@ -45,7 +45,7 @@ export default function Header(){
                 <img className=" md:p-[0px] w-[84px] h-[44px] md:w-[137px] md:h-[72px]" src={logo} alt="" />
                 <div className="md:flex gap-[24px] my-[auto] hidden ">
                     <button className="hoverHeader">Главная</button>
-                    <button className="hoverHeader">Про гида</button>
+                    <button className="hoverHeader ">Про гида</button>
                     <button className="hoverHeader">Программа тура</button>
                     <button className="hoverHeader" >Стоимость</button>
                     <button className="hoverHeader">Блог</button>
